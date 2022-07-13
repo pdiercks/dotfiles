@@ -17,5 +17,5 @@ export OPENER="xdg-open"
 export WM="awesome"
 
 # Path
-path=("/bin" "usr/bin" "/usr/games" "/usr/local/bin" "$HOME/bin" "$HOME/.local/bin" "$HOME/.local/share" "$HOME/.config/nvim/plugged/fzf/bin" "/snap/bin")
+path=("/bin" "usr/bin" "/usr/games" "/usr/local/bin" "/usr/local/go/bin" "$HOME/bin" "$HOME/.local/bin" "$HOME/.local/share" "$HOME/.config/nvim/plugged/fzf/bin" "/snap/bin")
 export PATH
