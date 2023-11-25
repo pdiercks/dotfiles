@@ -6,6 +6,10 @@ promptinit
 
 prompt walters
 
+# fzf key bindings and completion
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+
 # aliases
 [ -f ~/.config/zsh/aliases/aliases.zsh ] && source ~/.config/zsh/aliases/aliases.zsh
 
