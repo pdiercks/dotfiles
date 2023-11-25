@@ -4,19 +4,15 @@ alias ll='ls -lh'
 alias ..="cd .."
 
 # alias to manage dotfiles with git
-alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # source zsh
 alias szsh="source ~/.config/zsh/.zshrc"
 
-# anki
-# see https://anki.tenderapp.com/discussions/ankidesktop/41366-anki-window-appearance-is-broken-on-certain-linux-window-managers
-alias anki="ANKI_NOHIGHDPI=1 anki"
-
 # easy access to dotfiles
-alias zshconfig="vi ~/.config/zsh/.zshrc"
-alias zshalias="vi ~/.config/zsh/aliases/aliases.zsh"
-alias wmrc="vi ~/.config/awesome/rc.lua"
+alias zshconfig="nvim ~/.config/zsh/.zshrc"
+alias zshalias="nvim ~/.config/zsh/aliases/aliases.zsh"
+alias wmrc="nvim ~/.config/awesome/rc.lua"
 
 # conda
 # make it a function
