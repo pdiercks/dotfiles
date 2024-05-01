@@ -18,3 +18,8 @@ prompt pure
 
 # syntax highlighting, should be sourced at the end!
 [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# add texlive
+PATH=$HOME/texlive/2024/bin/x86_64-linux:$PATH
+MANPATH=$HOME/texlive/2024/texmf-dist/doc/man:$MANPATH
+INFOPATH=$HOME/texlive/2024/texmf-dist/doc/info:$INFOPATH
