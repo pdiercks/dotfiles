@@ -4,7 +4,7 @@ autoload -Uz compinit promptinit
 compinit
 promptinit
 
-prompt walters
+prompt pure
 
 # fzf key bindings and completion
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
