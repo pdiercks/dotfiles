@@ -9,6 +9,9 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # source zsh
 alias szsh="source ~/.config/zsh/.zshrc"
 
+# view
+alias v="nvim"
+
 # easy access to dotfiles
 alias zshconfig="nvim ~/.config/zsh/.zshrc"
 alias zshalias="nvim ~/.config/zsh/aliases/aliases.zsh"
@@ -20,9 +23,6 @@ ca () {
 	conda activate "$(conda info --envs | fzf | awk '{print $1}')"
 }
 alias cde="conda deactivate"
-
-# todo.txt
-# alias t="todo.sh"
 
 # git
 alias ga="git add"
