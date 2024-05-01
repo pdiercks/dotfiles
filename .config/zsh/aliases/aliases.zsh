@@ -30,6 +30,11 @@ alias gcmsg="git commit -m"
 alias gco="git checkout"
 alias gst="git status"
 alias gd="git diff"
+alias gl="git pull"
+alias gp="git push"
+alias gba="git branch -a"
+alias gbd="git branch -d"
+
 gam () {
     # send list of modified files to fzf for multiple selection
     # and git add selected files
