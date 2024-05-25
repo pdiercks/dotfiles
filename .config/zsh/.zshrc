@@ -1,5 +1,8 @@
 autoload -U colors && colors
 
+# add folder with completion scripts
+fpath=(~/.config/zsh/tabcompletion $fpath)
+
 autoload -Uz compinit promptinit
 compinit
 promptinit
