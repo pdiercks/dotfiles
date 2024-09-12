@@ -15,8 +15,11 @@ fzf
 git
 grub
 htop
+imagemagick
 intel-ucode
 kitty
+ktouch
+libxcrypt-compat
 linux
 linux-firmware
 man-db
@@ -29,6 +32,9 @@ npm
 nvidia
 openssh
 os-prober
+paraview
+pdftk
+pixi
 ripgrep
 rsync
 sudo
@@ -46,6 +52,7 @@ xorg-xinit
 xsel
 zathura
 zathura-pdf-mupdf
+zettlr
 zsh
 zsh-autosuggestions
 zsh-completions
